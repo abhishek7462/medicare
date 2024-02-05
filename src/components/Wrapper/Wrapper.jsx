@@ -8,7 +8,7 @@ const Wrapper = () => {
           <h3 className="text-blue-950 font-bold text-xl">
             Welcome to MediCare+ Clinic
           </h3>
-          <h1 className="text-blue-950 font-bold text-4xl md:text-6xl py-2">
+          <h1 className="text-blue-950 font-bold text-4xl lg:text-6xl md:text-4xl py-2">
             Best Specialists
           </h1>
           <p className="py-4 md:pr-10 text-gray-500">
@@ -25,10 +25,10 @@ const Wrapper = () => {
             </button>
           </div>
         </div>
-        <div className="md:p-4 mt-4">
-          <div className="p-4 md:p-6 max-w-md mx-auto">
+        <div className="md:p-4 mt-4 sm:p-0">
+          <div className="p-4 md:p-6 max-w-xl mx-auto sm:p-8 ">
             <img
-              className="rounded-xl shadow-lg w-full md:w-auto h-auto object-cover object-center"
+              className="rounded-xl shadow-lg w-full md:w-auto  h-auto object-cover object-center"
               src="https://images.pexels.com/photos/6497902/pexels-photo-6497902.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
             />
